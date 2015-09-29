@@ -28,3 +28,4 @@ console.log(similarity(
 ## License
 
 MIT
+
