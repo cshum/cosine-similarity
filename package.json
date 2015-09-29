@@ -1,0 +1,20 @@
+{
+  "name": "cosine-similarity",
+  "version": "1.0.0",
+  "description": "Cosine similarity between two object vectors",
+  "author": "Adrian C Shum <adrian@cshum.com> (https://github.com/cshum)",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^5.1.0",
+    "tape": "^4.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cshum/cosine-similarity.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/cshum/cosine-similarity",
+  "scripts": {
+    "test": "standard && node test.js"
+  }
+}
