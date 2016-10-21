@@ -1,7 +1,9 @@
+var hasOwnProperty = Object.prototype.hasOwnProperty
+
 function dot (a, b) {
   var sum = 0
   for (var key in a) {
-    if (a.hasOwnProperty(key) && b.hasOwnProperty(key)) {
+    if (hasOwnProperty.call(a, key) && hasOwnProperty.call(b, key)) {
       sum += a[key] * b[key]
     }
   }
