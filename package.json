@@ -1,12 +1,12 @@
 {
   "name": "cosine-similarity",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cosine similarity between two object vectors",
   "author": "Adrian C Shum <adrian@cshum.com> (https://github.com/cshum)",
   "dependencies": {},
   "devDependencies": {
-    "standard": "^5.1.0",
-    "tape": "^4.1.0"
+    "standard": "^7.1.2",
+    "tape": "^4.6.0"
   },
   "repository": {
     "type": "git",
