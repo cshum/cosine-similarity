@@ -11,21 +11,21 @@ var largeIntA = {}
 var largeIntB = {}
 var keys = 'abcdefghijklmnopqrstuvw'
 for (var i = 0; i < keys.length; i++) {
-	var key = keys[i]
-	largeIntA[key] = Math.round((Math.random() - .5) * 10)
-	largeIntB[key] = Math.round((Math.random() - .5) * 10)
+  var key = keys[i]
+  largeIntA[key] = Math.round((Math.random() - 0.5) * 10)
+  largeIntB[key] = Math.round((Math.random() - 0.5) * 10)
 }
 
 new benchmark.Suite()
 
 .add('small integer vectors', function () {
-	similarity(smallIntA, smallIntB)
+  similarity(smallIntA, smallIntB)
 })
 .add('large integer vectors', function () {
-	similarity(largeIntA, largeIntB)
+  similarity(largeIntA, largeIntB)
 })
 
 .on('cycle', (e) => {
-	console.log(e.target.toString())
+  console.log(e.target.toString())
 })
 .run()
