@@ -4,6 +4,7 @@
   "description": "Cosine similarity between two object vectors",
   "author": "Adrian C Shum <adrian@cshum.com> (https://github.com/cshum)",
   "devDependencies": {
+    "benchmark": "^2.1.4",
     "standard": "^10.0.3",
     "tape": "^4.6.0"
   },
@@ -14,6 +15,7 @@
   "license": "MIT",
   "homepage": "https://github.com/cshum/cosine-similarity",
   "scripts": {
-    "test": "standard && node test.js"
+    "test": "standard && node test.js",
+    "benchmark": "node benchmark.js"
   }
 }
