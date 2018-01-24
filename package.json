@@ -3,9 +3,8 @@
   "version": "1.0.1",
   "description": "Cosine similarity between two object vectors",
   "author": "Adrian C Shum <adrian@cshum.com> (https://github.com/cshum)",
-  "dependencies": {},
   "devDependencies": {
-    "standard": "^7.1.2",
+    "standard": "^10.0.3",
     "tape": "^4.6.0"
   },
   "repository": {

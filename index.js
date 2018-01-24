@@ -16,4 +16,3 @@ module.exports = function similarity (a, b) {
   if (magA && magB) return dot(a, b) / (magA * magB)
   else return false
 }
-
